@@ -1,13 +1,48 @@
 @import "~bootstrap/scss/bootstrap.scss";
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    align-self: center;
+    width: 100%;
+}
+.TrafficBox{
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    width: 200px;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
 
-/* 
+}
+.red{
+    height: 150px;
+    width: 150px;
+    border-radius: 75px;
+    background-color: red;
+    margin: 15px 0; 
+}
+.yellow{
+    height: 150px;
+    width: 150px;
+    border-radius: 75px;
+    background-color: yellow;
+    margin: 15px 0; 
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+}
+.green{
+    height: 150px;
+    width: 150px;
+    border-radius: 75px;
+    background-color: green;
+    margin: 15px 0; 
 
-*/
+}
+.glow{
+    border: 10px solid rgb(255, 255, 255);
+}
+
