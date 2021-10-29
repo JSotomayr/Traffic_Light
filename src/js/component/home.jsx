@@ -10,6 +10,7 @@ const Home = () => {
 	return (
 		<div className="container">
 			<div className="TrafficBox">
+				
 				<TrafficLight
 					light={color.stop}
 					addglow={() => {
@@ -20,6 +21,7 @@ const Home = () => {
 						});
 					}}
 				/>
+
 				<TrafficLight
 					light={color.slow}
 					addglow={() => {
@@ -30,6 +32,7 @@ const Home = () => {
 						});
 					}}
 				/>
+
 				<TrafficLight
 					light={color.go}
 					addglow={() => {

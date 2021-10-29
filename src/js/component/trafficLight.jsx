@@ -15,5 +15,5 @@ TrafficLight.propTypes = {
 	light: PropTypes.string,
 	addglow: PropTypes.func
 };
-
 export default TrafficLight;
+
